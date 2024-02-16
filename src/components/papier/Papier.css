@@ -1,0 +1,37 @@
+.mainPapier {
+    /* width: 300px;
+    height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.papier {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 15px solid #536df5;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.mainPapier .papier:hover {
+    filter: brightness(170%);
+    transform: scale(1.1);
+}
+
+.mainPapier .papier:active {
+    background-color: rgba(150, 147, 147, 0.87);
+    border: 15px solid #5f71c9;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+.papier img {
+    width: 70px;
+    height: 70px;
+}
